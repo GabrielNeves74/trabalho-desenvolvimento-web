@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #e2e9ef;
+}
+
+header h1{
+    background-color: #2d2f31;
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+header ul{
+    background-color: #414951;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+header li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover { 
+    color: gray;
+}
+
+.descricao {
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.conteudo {
+    flex: 3;
+    background: white;
+    padding: 20px;
+    margin-right: 20px; 
+    border-radius: 5px; 
+}
+
+.conteudo h2 {
+    text-align: center;
+    color: #1e73be;
+    font-size: 40px;
+    border: 10px, solid, #414951;
+}
+
+.conteudo td {
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.conteudo p {
+    padding: 10px;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+ .sidebar {
+      flex: 1;
+    }
+
+.box {
+    background: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.box h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #1e73be;
+
+}
+
+.box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.box ul li {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.box ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.box ul li a:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 100px
+}
+
+.mensagem {
+    width: 10%;
+    margin-top: 15px;
+    padding: 5px;
+    background-color: #414951;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+}
+
+button {
+    width: 10%;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #414951;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+button:hover {
+    background: gray;
+}
+
+footer {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: #414951;
+    color:white;
+}
